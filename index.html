@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORD COUNT</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery-3.5.1.js"></script>
+    <script src="charts.js"></script>
+    <script async defer src="script.js"></script>
+</head>
+<body>
+    <h1 align="center">Word Count Visualiser</h1>
+    <table border="1" cellpadding="2" id="table"></table>
+    <div id="contents">
+        <label for="ipArea">Paste Text Here</label>
+        <br>
+        <textarea id="ipArea" cols="100" rows="20"></textarea>
+        <br>
+        <button id="button">Calculate</button>
+        <br>
+        <canvas width="600" height="600" id="cnvWcChart" style="display: block; height: 705px; width: 705px;" class="chartjs-render-monitor"></canvas>
+    </div>
+</body>
+</html>
